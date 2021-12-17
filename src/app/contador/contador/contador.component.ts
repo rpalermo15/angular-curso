@@ -19,6 +19,7 @@ export class ContadorComponent {
     titulo: string = 'Contador App';
     numero: number = 10;
     base  : number = 5;
+    pp: number = 1;
   
     acumular( valor: number ) {
         this.numero += valor;
